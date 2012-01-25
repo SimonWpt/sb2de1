@@ -1,0 +1,65 @@
+----------
+Einführung
+----------
+
+sb2de1 ist ein 9 KB Klon des bekannten JQuery Slimbox 2 Script von
+Christophe Beyls <christophe.beyls@gmail.com>. Weitere Infos zu Slimbox:
+
+* http://code.google.com/p/slimbox/
+* http://www.digitalia.be/software/slimbox2/
+
+Ich habe das Script optimiert und alle CSS- und Bilddateien integriert.
+sb2de1 ist eine Onefile-Lösung, die man sehr einfach integrieren kann.
+
+Ich habe sb2de1 für meinen tumblr-Blog erstellt, nachdem ich keine
+einfache Lösung für eine Lightbox-Lösung gefunden habe. sb2de1 steht
+für Slimbox 2 deutsch 1 Datei.
+
+
+--------------
+Abhängigkeiten
+--------------
+* jquery 1.4.1 or newer
+
+
+-------
+Nutzung
+-------
+Einfach sb2de1 in den <head> der HTML-Datei oder als letze Anweisung vor
+</body> vor der jQuery-Anweisung einbinden.
+
+<script type="text/javascript" src="pfad_zu/jquery.js"></script>
+<script type="text/javascript" src="pfad_zu/sb2de1.js"></script>
+
+Ansonsten funktioniert alles wie bei Slimbox. Einfach das rel="lightbox"
+Attribut dem Link zu den Voll-Bildern hinzufügen. Man kann optional das
+title-Attribut nutzen, um eine Beschreibung hinzuzufügen.
+
+<a href="pfad_zu/image.jpg" rel="lightbox" title="Beschreibung">Bild</a>
+
+Um ein Set von mehreren Bildern zu erstellen, kann man einen
+Gruppennamen im rel Attribute nach dem “lightbox” angeben:
+
+<a href="pfad_zu/image-1.jpg" rel="lightbox-cats">Bild #1</a>
+<a href="pfad_zu/image-2.jpg" rel="lightbox-cats">Bild #2</a>
+<a href="pfad_zu/image-3.jpg" rel="lightbox-cats">Bild #3</a>
+
+Alle weiteren Infos zur Nutzung könnt ihr beim Ursprungsscript auf
+Englisch nachlesen: http://www.digitalia.be/software/slimbox2/#usage
+
+
+-------
+Kontakt
+-------
+Bertram Simon
+info@agentur-simon.de
+http://www.agentur-simon.de
+https://twitter.com/SimonWpt
+https://plus.google.com/105896207304932060857
+
+
+------
+Lizenz
+------
+Das Script steht unter der "MIT License (MIT)"
+http://www.opensource.org/licenses/mit-license.php
